@@ -10,6 +10,4 @@ function ArticleTableCtrl($http) {
     .success(function (data) {
       vm.articles = data;
     });
-
-
 }
